@@ -182,3 +182,41 @@ a:hover {
   visibility: visible;
   opacity: 1;
 }
+
+.container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%
+}
+
+.card {
+  background-color: azure;
+  background-position: center;
+  height: 300px;
+  width: 400px;
+  margin: 3rem 0 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  filter: grayscale(0.5);
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.card-text {
+  width: 40%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: rgb(red, green, blue);
+}
